@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>ADD STUDENT Form</title> 
+	<link rel="stylesheet"
+		href="admin.css"> 
+		<style>
+body  {
+  background-image: url('addstudent.jpg');
+   background-size: cover; 
+   
+}
+
+</style>
+ 
+
+<body> 
+	<div class="main"> 
+		<h1>ADD STUDENT FORM</h1> 
+		<form action="Addstudent.jsp"> 
+			<label for="id">id:</label> 
+			<input type="text" id="id"
+				name="id"
+				placeholder="Enter your  id" required> 
+
+			<label for="Name"> Name:</label> 
+			<input type="text" id="Name"
+				name="Name"
+				placeholder="Enter your  Name" required> 
+				
+				
+			<label for="Dob">Date of Birth:</label> 
+			<input type="date"
+				id="Dob" name="Dob"
+				placeholder="Enter your DOB" required>
+				
+				 
+				<label for="Email">Email:</label> 
+			<input type="Email" id="Email"
+				name="Email"
+				placeholder=" Enter your Email" required> 
+
+				<label for="mobile">Course:</label> 
+			<input type="text" id="course"
+				name="Course"
+				placeholder="Enter your course" required 
+				maxlength="10"> 
+				
+
+			
+			<label for="Duration">Duration:</label> 
+			<input type="text" id="Duration"
+				name="Duration"
+				placeholder="Enter your duration" required 
+				maxlength="10"> 
+
+
+
+			
+
+			<div class="wrap"> 
+				<button type="submit" onclick="solve()"> 
+				Submit 
+				</button> 
+			</div> 
+		</form> 
+	</div> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	
+	<link rel="stylesheet"
+		href="admin.css">
+</head>
+
+<body>
+<style>
+body  {
+  background-image: url('Allstudent.jpg');
+   background-size: cover; 
+   
+}
+</style>
+    <div class="main">
+		<h1>Admin login form</h1>
+		<h3>Enter your Admin</h3>
+		<form action="adminlogin.jsp">
+			<label for="username">
+				username:
+			</label>
+			<input type="Username"
+				id="Username"
+				name="Username"
+				placeholder="Enter your Username" required>
+
+			<label for="password">
+				Password:
+			</label>
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required>
+				 
+				 <div class="content">
+				 <div class="pass-link">
+				<a href="reset.html"> Forget Password</a>
+				</div>
+				 
+				 </div>
+				
+			<div class="wrap">
+				<button type="submit"
+						onclick="solve()">
+					Submit
+				</button>
+			</div>
+		</form>
+			
+	</div>
+</body>
+
+</html>
